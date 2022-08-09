@@ -12,7 +12,7 @@ public class IfExample {
 			} else if (score <= 92) {
 				System.out.println("A-");
 			} else {
-			System.out.println("A");
+				System.out.println("A");
 			}
 		} else if (score >= 80 & score < 90){
 			if (score >= 87) {
@@ -20,7 +20,7 @@ public class IfExample {
 			} else if (score <= 82) {
 				System.out.println("B-");
 			} else {
-			System.out.println("B");
+				System.out.println("B");
 			}
 		} else if (score >= 70 & score < 80){
 			if (score >= 77) {
@@ -28,7 +28,7 @@ public class IfExample {
 			} else if (score <= 72) {
 				System.out.println("C-");
 			} else {
-			System.out.println("C");
+				System.out.println("C");
 			}
 		} else if (score >= 60 & score < 70){
 			if (score >= 67) {
@@ -36,7 +36,7 @@ public class IfExample {
 			} else if (score <= 62) {
 				System.out.println("D-");
 			} else {
-			System.out.println("D");
+				System.out.println("D");
 			}
 		} else {
 			System.out.println("F");
