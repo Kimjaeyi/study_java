@@ -4,19 +4,26 @@ public class IfExample2 {
 
 	public static void main(String[] args) {
 		
-		int num = 3;
-		int price = 25000;
+		int num = 4;
+		int price = 35000;
 		
 		if (num == 1) {
-			System.out.println("정가 : " + price + "일반 등급 : " + price*0.95 + "원");
+			int discount = (int) (price*(1-0.05));
+			System.out.println("등급 : 일반, " + "정가 : " + price + "원, " + "할인가 : " + discount + "원");
 		} else if (num == 2) {
-			System.out.println("정가 : " + price + "브론즈 등급 :" + price*0.9 + "원");
+			int discount = (int) (price*(1-0.1));
+			System.out.println("등급 : 브론즈, " + "정가 : " + price + "원, " + "할인가 : " + discount + "원");
 		} else if (num == 3) {
-			System.out.println("정가 : " + price + "실버 등급 : " + price*0.85 + "원");
+			int discount = (int) (price*(1-0.15));
+			System.out.println("등급 : 실버, " + "정가 : " + price + "원, " + "할인가 : " + discount + "원");
 		} else if (num == 4) {
-			System.out.println("정가 : " + price + "골드 등급 : " + price*0.8 + "원");
+			int discount = (int) (price*(1-0.2));
+			System.out.println("등급 : 골드, " + "정가 : " + price + "원, " + "할인가 : " + discount + "원");
+		} else if (num == 5) {
+			int discount = (int) (price*(1-0.25));
+			System.out.println("등급 : 플래티넘, " + "정가 : " + price + "원, " + "할인가 : " + discount + "원");
 		} else {
-			System.out.println("정가 : " + price + "플래티넘 등급 : " + price*0.73 + "원");
+			System.out.println("해당 등급이 존재하지 않습니다.");
 		}
 		
 	}
