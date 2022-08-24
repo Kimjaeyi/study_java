@@ -6,6 +6,10 @@ public class Korean {
 	String ssn;
 	int age;
 	
+	Korean() {
+		
+	}
+	
 	// 오버로딩(**오버라이딩이랑 혼동하면 X!!)
 	Korean(String name, String ssn) {
 		this.name = name;
@@ -17,8 +21,14 @@ public class Korean {
 		this.age = age;
 	}
 	
-	Korean() {
-		
+	static String nationality = "Korean";
+	
+	static int staticTest (int a) {
+		return a + 10;
+	}
+	
+	int staticTest2 (int a) {
+		return a - 10;
 	}
 	
 }
